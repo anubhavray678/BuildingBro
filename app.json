@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Beloved",
-    "slug": "Beloved",
+    "name": "BuildingBro",
+    "slug": "BuildingBro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anubhavray678.BuildingBro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0fbe297-0ea8-4c1b-8bc5-5bd95f600543"
+      }
     }
   }
 }
